@@ -1,0 +1,17 @@
+python-stopit (1.1.1-1) unstable; urgency=medium
+
+  * Move to gbp format
+
+ -- Yuvi Panda <yuvipanda@riseup.net>  Mon, 14 Sep 2015 16:22:00 -0700
+
+python-stopit (1.1.1-0) UNRELEASED; urgency=medium
+
+  * Merge upstream 1.1.1
+
+ -- Adam Wight <awight@wikimedia.org>  Mon, 14 Sep 2015 15:56:17 -0700
+
+python-stopit (1.1.0-0kali1) kali; urgency=medium
+
+  * Initial packaging for kali
+
+ -- Sophie Brun <sophie@freexian.com>  Fri, 23 Jan 2015 08:45:58 +0100

@@ -1,0 +1,3 @@
+version=3
+https://pypi.python.org/pypi/stopit/ (?:.*)/stopit-(\d.*).tar.gz
+

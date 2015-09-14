@@ -1,0 +1,31 @@
+Source: python-stopit
+Section: python
+Priority: optional
+Maintainer: Sophie Brun <sophie@freexian.com>
+Build-Depends: debhelper (>= 9), dh-python, python-all, python-setuptools, python3-all, python3-setuptools
+Standards-Version: 3.9.6
+Homepage: http://pypi.python.org/pypi/stopit/
+Vcs-Git: git://git.kali.org/packages/python-stopit.git
+Vcs-Browser: http://git.kali.org/gitweb/?p=packages/python-stopit.git;a=summary
+X-Python-Version: >= 2.6
+X-Python3-Version: >= 3.2
+
+Package: python-stopit
+Architecture: all
+Depends: ${misc:Depends}, ${shlibs:Depends}, ${python:Depends}
+Description: Timeout control decorator and context managers - Python 2.x
+ Stopit provides:
+   * a function that raises an exception in another thread, including the main
+     thread.
+   * two context managers that may stop its inner block activity on timeout.
+   * two decorators that may stop its decorated callables on timeout.
+
+Package: python3-stopit
+Architecture: all
+Depends: ${misc:Depends}, ${shlibs:Depends}, ${python:Depends}
+Description: Timeout control decorator and context managers - Python 3.x
+ Stopit provides:
+   * a function that raises an exception in another thread, including the main
+     thread.
+   * two context managers that may stop its inner block activity on timeout.
+   * two decorators that may stop its decorated callables on timeout.

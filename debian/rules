@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+
+
+%:
+	dh $@ --with python2,python3
+
+override_dh_install_changelogs:
+	dh_install_changelogs CHANGES.rst
+
+override_dh_auto_install:
+	dh_auto_install
+	set -e; for python in $$(py3versions -r); do \
+		$$python setup.py install --root=$(CURDIR)/debian/tmp \
+			--no-compile -O0 --install-layout=deb; \
+	done
