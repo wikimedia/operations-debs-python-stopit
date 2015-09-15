@@ -5,8 +5,8 @@ Maintainer: Sophie Brun <sophie@freexian.com>
 Build-Depends: debhelper (>= 9), dh-python, python-all, python-setuptools, python3-all, python3-setuptools
 Standards-Version: 3.9.6
 Homepage: http://pypi.python.org/pypi/stopit/
-Vcs-Git: git://git.kali.org/packages/python-stopit.git
-Vcs-Browser: http://git.kali.org/gitweb/?p=packages/python-stopit.git;a=summary
+Vcs-Git: https://github.com/wikimedia/operations-debs-python-stopit.git
+Vcs-Browser: https://github.com/wikimedia/operations-debs-python-stopit
 X-Python-Version: >= 2.6
 X-Python3-Version: >= 3.2
 
